@@ -148,7 +148,7 @@ function generarProductos (){
     if(contenedor){
         for (let value of db){
             let template = `<div class="producto">
-                        <img src="/img/${value.img}"/>
+                        <img src="./img/${value.img}"/>
                         <div class="informacion">
                             <div>
                                 <p>Nombre <br><span>${value.nombre}</span></p>
