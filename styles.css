@@ -113,10 +113,10 @@ img{
     background-color: rgba(0, 0, 0, 0.1);
 }
 .banner-pasion{
-    background-image: url('/img/pasion.jpg');
+    background-image: url('./img/pasion.jpg');
 }
 .banner-sueno{
-    background-image: url('/img/sueno.jpg');
+    background-image: url('./img/sueno.jpg');
 }
 .sombra{
     width: auto;
