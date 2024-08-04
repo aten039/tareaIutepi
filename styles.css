@@ -194,6 +194,7 @@ img{
     font-size: 1.6rem;
     font-weight: bold;
     padding: 1rem;
+  
 }
 .informacion p{ 
     margin: 0;
@@ -265,7 +266,7 @@ img{
     display: grid;
     grid-template-columns: repeat( 1, 1fr);
     gap: 3rem;
-    width: 90%;
+    width: 85%;
     margin: 5rem auto;
 }
 @media(min-width:760px){
@@ -278,7 +279,7 @@ img{
         grid-template-columns: repeat( 3, 1fr);
     }
 }
-@media(min-width:1400px){
+@media(min-width:1600px){
     #contenedor-productos{
         grid-template-columns: repeat( 4, 1fr);
     }
