@@ -85,7 +85,7 @@ img{
 }
 .seccion-iconos h2{
     text-align: center;
-    font-size: 3.8rem;
+    font-size: 3rem;
     margin: 2rem 0;
     font-weight: bold;
 }
@@ -195,7 +195,7 @@ img{
 .seccion-productos h2{
     text-align: center;
     margin: 2rem 0;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: black;
 }
 .contenedor-productos{
@@ -315,30 +315,30 @@ img{
     text-align: center;
 }
 .titulo-aside{
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 
 #contenedor-productos{
     display: grid;
-    grid-template-columns: repeat( 1, 1fr);
-    gap: 3rem;
-    width: 85%;
+    grid-template-columns: repeat( 2, 1fr);
+    gap: 1rem;
+    width: 95%;
     margin: 5rem auto;
 }
 @media(min-width:760px){
     #contenedor-productos{
-        grid-template-columns: repeat( 2, 1fr);
+        grid-template-columns: repeat( 3, 1fr);
     }
 }
 @media(min-width:1200px){
     #contenedor-productos{
-        grid-template-columns: repeat( 3, 1fr);
+        grid-template-columns: repeat( 4, 1fr);
     }
 }
 @media(min-width:1600px){
     #contenedor-productos{
-        grid-template-columns: repeat( 4, 1fr);
+        grid-template-columns: repeat( 5, 1fr);
     }
 }
 @media(min-width:900px){
